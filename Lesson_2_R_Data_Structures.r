@@ -233,3 +233,4 @@ print(df[df$age < 18, c("age", "name")])  # Filtered rows and columns
 print((df$age < 18) & (df$sex == "Female"))
 print(df[(df$age < 18) & (df$sex == "Female"), ])  # Apply filter
 print(df[(df$age > 30) & (df$sex == "Male"), -1])  # Filter and exclude column
+
